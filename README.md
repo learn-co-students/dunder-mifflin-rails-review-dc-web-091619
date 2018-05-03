@@ -12,3 +12,5 @@ The Dog show page should have their name, breed, age along with the Dunder Miffl
 As a user I should be able to create and edit an Employee and only be able to select only 1 dog from a list of already existing dogs.
 
 No one at Dunder Mifflin can have the same alias and/or job title (Dwight made up that rule!)
+
+BONUS: make an option to sort the Dog index page by number of employees that belong to them.
