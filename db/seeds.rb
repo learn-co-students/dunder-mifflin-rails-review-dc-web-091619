@@ -1,7 +1,7 @@
 Employee.destroy_all
 Dog.destroy_all
 
-5.times do
+7.times do
   Dog.create(name: Faker::Dog.name, breed: Faker::Dog.breed, age: Faker::Dog.age)
 end
 
