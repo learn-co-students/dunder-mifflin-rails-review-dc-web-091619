@@ -12,5 +12,5 @@ showcase each of the employee's pet. We’ve started some of the work for you, a
 - An index page for Dogs
 - An index page for Employees
 - A page which displays a list of dogs that are up for adoption (ie. don't have an employee connected to them)
-- For each of the dogs up for adoptiom, we want to display a link -  'Adopt this dog' - which should take us to a form where we can select from a list of employees and associate that employee with that dog. 
+- For each of the dogs up for adoption, we want to display a link -  'Adopt this dog' - which should take us to a form where we can select from a list of employees and associate that employee with that dog. 
 
