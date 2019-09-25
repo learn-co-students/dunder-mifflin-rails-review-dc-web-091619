@@ -12,11 +12,8 @@ for you to be able to run `rake db:seed`. Every employee can only be connected t
 - For our index page for Employees, a user should be able to click on a specific Employee and take them to their corresponding show page.
 - The Employee show page should list all of their attributes (and as a bonus, try to get their picture to show up!)
 
-- While most of the dogs are connected to employees, there are a couple that are not. We'll call these dogs as being up for adoption.
+As a user, I should be able to create AND edit an Employee, and only be able to select 1 dog from a list of already existing dogs.
 
-- DELIVERABLES:
-- An index page for Dogs
-- An index page for Employees
-- A page which displays a list of dogs that are up for adoption (ie. don't have an employee connected to them)
-- For each of the dogs up for adoption, we want to display a link -  'Adopt this dog' - which should take us to a form where we can select from a list of employees and associate that employee with that dog. 
+No one at Dunder Mifflin can have the same alias and/or job title (Dwight made up that rule!)
 
+BONUS: Make an option to sort the dogs on the index page by the number of employees that belong to them.
