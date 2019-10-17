@@ -1,0 +1,23 @@
+<h1><%= @employee.name %></h1><br>
+
+<%= form_tag employee_path(@employee), method: "delete" do %>
+<%= submit_tag "Delete #{@employee.name}" %>
+<% end %><br>
+
+<%= form_tag edit_employee_path(@employee), method: "get" do %>
+<%= submit_tag "Edit #{@employee.name}" %>
+<% end %><br>
+
+<%= form_tag employees_path, method: "get" do %>
+<%= submit_tag "Home" %>
+<% end %><br>
+
+<h3>Alias: <%= @employee.alias %></h3>
+<h3>Title: <%= @employee.title %></h3>
+<h3>Office: <%= @employee.office %></h3>
+<h3>Dog: <%= link_to @employee.dog.name, dog_path(@employee.dog) %></h3>
+
+<img src=<%= @employee.img_url %>>
+
+
+
