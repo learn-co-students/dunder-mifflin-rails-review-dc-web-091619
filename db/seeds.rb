@@ -15,3 +15,11 @@ Employee.create(first_name: "Pam", last_name: "Beesly", alias: "Beesly", title: 
 Employee.create(first_name: "Kelly", last_name: "Kapoor", alias: "none", title: "Customer Service Representative", office: "Scranton", dog: Dog.second, img_url: "https://vignette.wikia.nocookie.net/theoffice/images/6/69/Kelly_Kapoor.jpg/revision/latest/scale-to-width-down/700?cb=20170701090501")
 Employee.create(first_name: "Oscar", last_name: "Martinez", alias: "none", title: "Accountant", office: "Scranton", dog: Dog.fourth, img_url: "https://vignette.wikia.nocookie.net/theoffice/images/2/25/Oscar_Martinez.jpg/revision/latest/scale-to-width-down/700?cb=20170701085818")
 Employee.create(first_name: "Darryl", last_name: "Philbin", alias: "none", title: "Warehouse Assistant", office: "Scranton", dog: Dog.fifth, img_url: "https://vignette.wikia.nocookie.net/theoffice/images/4/49/2009DarrylCroppeed.PNG/revision/latest/scale-to-width-down/1000?cb=20170701085636")
+
+#
+# T (and as a bonus, try to get their picture to show up!)
+# As a user, I should be able to create AND edit an Employee, and only be able to select 1 dog from a list of already existing dogs.
+#
+# No one at Dunder Mifflin can have the same alias and/or job title (Dwight made up that rule!)
+#
+# BONUS: Make an option to sort the dogs on the index page by the number of employees that belong to them.
