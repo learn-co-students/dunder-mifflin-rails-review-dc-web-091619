@@ -1,0 +1,18 @@
+
+<%= form_for @dog do |f| %>
+  <%= f.label :name, "Dog Name" %> <br>
+  <%= f.text_field :name %><br>
+
+  <br>
+
+  <%= f.label :breed, "Dog Breed" %> <br>
+  <%= f.text_field :breed %> <br>
+
+  <br>
+
+  <%= f.label :age %> <br>
+  <%= f.number_field :age %> <br>
+
+  <%= f.submit %>
+
+  <% end %>
