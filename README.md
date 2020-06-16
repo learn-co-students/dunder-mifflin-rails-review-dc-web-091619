@@ -7,9 +7,9 @@ showcase each of the employees' pets. We’ve started some of the work for you, 
 - Build out the associations for the models we've created. If you look into the `seeds.rb` file, you'll notice that we've put
 in the desired models and expected associations to make our app work. **However**, you need to change the schema in order
 for you to be able to run `rake db:seed`. Every employee can only be connected to a single dog, and a dog can have many owners.
-- For our index page for Dogs, a user should be able to click on a specific dog and take them to the corresponding show page.
+- For our index page for Dogs, a user should be able to click on a specific dog to go to the corresponding show page.
 - The Dog show page should have their name, breed, age and the list of Dunder Mifflin Employees they are connected to
-- For our index page for Employees, a user should be able to click on a specific Employee and take them to their corresponding show page.
+- For our index page for Employees, a user should be able to click on a specific Employee to go to their corresponding show page.
 - The Employee show page should list all of their attributes (and as a bonus, try to get their picture to show up!)
 
 As a user, I should be able to create AND edit an Employee, and only be able to select 1 dog from a list of already existing dogs.
