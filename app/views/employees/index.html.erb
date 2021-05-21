@@ -1,0 +1,11 @@
+<h1>Here are the Dunder Mifflin Employees!</h1>
+<%= form_tag new_employee_path, method: "get" do %>
+<%= submit_tag "Add Employee" %>
+<% end %><br>
+<ol>
+<% @employees.each do |e|  %>
+    <li><%= link_to e.name, employee_path(e) %></li><br>
+<% end %>
+</ol>
+
+

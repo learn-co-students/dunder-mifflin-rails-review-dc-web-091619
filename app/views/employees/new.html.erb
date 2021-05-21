@@ -1,0 +1,9 @@
+<h1>Create a New Employee</h1>
+<% if !@employee.valid? %>
+    <% @employee.errors.full_messages.each do |m| %>
+    <%= m %><br>
+    <% end %>
+<% end%>
+<%= render "employee_form" %>
+
+
